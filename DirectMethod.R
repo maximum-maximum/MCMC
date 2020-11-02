@@ -1,11 +1,11 @@
-#???ږ@
+# 直接法
 
 candidate <- 1/pi
 M <- pi/2
 n <- 100000
 
-theta <- runif(n, min = 0, max = pi)
-u <- runif(n, min = 0, max = 1)
+theta <- runif(n, min=0, max=pi)
+u <- runif(n, min=0, max=1)
 
 condition <- (u < sin(theta))
 
